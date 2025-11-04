@@ -19,6 +19,9 @@ sudo apt install texinfo
 #cURL (needed to clone some required files)
 sudo apt-get install curl
 
+# building ISO
+sudo apt-get install xorriso
+
 export PREFIX="/usr/local/i386elfgcc"
 export TARGET=i386-elf
 export PATH="$PREFIX/bin:$PATH"
